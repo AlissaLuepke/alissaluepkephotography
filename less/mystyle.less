@@ -1,0 +1,611 @@
+*,
+*:after,
+*:before {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border-width: 0;
+}
+
+body {
+    margin: 0;
+    font-family: 'Pontano Sans', sans-serif;
+    padding: 0;
+    background-image: url(/img//white_wall_hash_@2X.png);
+    background-repeat: repeat;
+}
+
+p {
+    font-size: 16px;
+    line-height: 180%;
+}
+
+.form {
+    border: 1px solid rgb(234, 234, 234);
+    border-bottom: 4px solid rgba(124, 124, 124, 0.15);
+    padding: 28px 15px;
+    background-color: #fcfcfc;
+}
+
+.textarea-style {
+    font-size: 12pt;
+    color: #333333;
+}
+
+input,
+select {
+    line-height: 20pt;
+}
+
+input,
+textarea,
+select {
+    width: 100%;
+}
+
+textarea {
+    resize: none;
+}
+
+button.navbar-toggle.collapsed{
+    margin-right: 20px;
+}
+
+.gallery-text {
+    padding: 0.2em;
+    color: #333232;
+    text-transform: uppercase;
+    font-size: 1.25em;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.up-button {
+    color: #333;
+    background-color: transparent;
+    border: none;
+    border-radius: 0px !important;
+}
+
+.custom_top {
+    margin-top: 50px;
+}
+
+///////Navigation springen
+#about {
+    margin-bottom: 40px;
+}
+
+#contact {
+    margin-bottom: 40px;
+}
+
+.mr-5 {
+    margin-right: 50px;
+}
+
+.ml-2 {
+    margin-left: 20px;
+}
+
+.mb-70 {
+    margin-bottom: 70px;
+}
+
+.mbt-50 {
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
+
+.mb-30 {
+    margin-bottom: 30px;
+}
+
+.mt-70 {}
+
+.padding-50 {
+    padding: 50px;
+}
+
+.pt-15 {
+    padding-top: 15px;
+}
+
+.mt-20 {
+    margin-top: 20px;
+}
+
+.padding-formular {
+    padding-right: 40px;
+    padding-left: 40px;
+}
+
+
+/*
+.mtb-5{
+    padding-bottom: 50px;
+    padding-top: 50px;
+}*/
+
+.pl-4 {
+    padding-left: 40px;
+}
+
+.pl-20 {
+    padding-left: 80px;
+}
+
+.custom_footer {
+    border-top: 1px solid rgba(206, 206, 206, 0.8);
+    margin-top: 50px;
+    padding: 20px 0 10px 0;
+}
+
+.nopadding {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.navbar {
+    margin: 0;
+    background-color: rgba(255, 255, 255, 0.87);
+}
+
+
+/*.active{
+    border-bottom: 4px solid rgba(62, 62, 62, 0.27); 
+   background-color: transparent;
+}*/
+
+a {
+    color: black;
+    /* blue colors for links too */
+    text-decoration: inherit;
+    /* no underline */
+}
+
+.active {
+    //border-bottom: 4px solid rgba(62, 62, 62, 0.27);
+    background-color: transparent;
+}
+
+.active2 {
+    border-bottom: 4px solid rgba(62, 62, 62, 0.27);
+    background-color: transparent;
+}
+
+navbar-default .navbar-toggle {
+    border-color: #ddd;
+}
+
+.navbar-toggle {
+    position: relative;
+    float: right;
+    margin-right: 10px;
+    padding: 9px 10px;
+    margin-top: 8px;
+    margin-bottom: 8px;
+    background-color: transparent;
+    background-image: none;
+    border: none;
+    border-radius: 0px;
+    transition: .35s ease;
+}
+
+
+/*.navbar-nav>li {
+   transition: .35s ease;
+}
+.navbar-nav>li:hover {
+    transform: scale(1.1);
+   transition: .35s ease;
+}*/
+
+.navbartext {
+    line-height: 20px !important;
+    font-size: 14px!important;
+}
+
+.navbartext_a {
+    padding-bottom: 0px;
+}
+
+.navbar-default .navbar-nav>li>a>p:hover {
+    transform-origin: left;
+    transform: scale(1.1);
+    transition: .35s ease;
+}
+
+.navbar-nav>li>a {
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+
+.navbar-default .navbar-nav>li>a>p {
+    transition: .35s ease;
+}
+
+.navbar-default .navbar-toggle:focus,
+.navbar-default .navbar-toggle:hover {
+    background-color: none;
+    transform: scale(1.1);
+    transition: .35s ease;
+}
+
+.navbar-brand {
+    transition: .35s ease;
+}
+
+.navbar-default .navbar-brand:focus,
+.navbar-default .navbar-brand:hover {
+    // transform-origin: center left;
+    transform: scale(1.1);
+    transition: .35s ease;
+}
+
+
+/*.slideshow {
+    max-height: calc(100vh - 200px);
+    overflow-y: auto;
+}*/
+
+.vertical-center {
+    min-height: 100%;
+    /* Fallback for browsers do NOT support vh unit */
+    min-height: 100vh;
+    /* These two lines are counted as one :-)       */
+    display: flex;
+    align-items: center;
+}
+
+.container-fluid {
+    padding: 0;
+    overflow: hidden;
+}
+
+.navbar-brand {
+    // margin-left: 5px;
+    padding-left: 40px;
+    //border: 2px solid red;
+}
+
+.header-gallery {
+    position: relative;
+    width: 400%;
+    z-index: 999;
+    // height: 600px;
+    img {
+        z-index: 999;
+        display: inline;
+        width: 25%;
+        padding: 0;
+        margin: 0px -1px;
+    }
+}
+
+
+/*.contain{
+     object-fit: contain;
+}*/
+
+
+/*.size{
+    height: 500px;
+    
+}*/
+
+.balken-gallery {
+    background-color: rgba(255, 255, 255, 0.8);
+    font-size: 3pt;
+    color: rgba(255, 255, 255, 0.8);
+    position: relative;
+    bottom: 3pt;
+    z-index: 1000;
+    width: 100%;
+}
+
+.bottom-bar {
+    position: absolute;
+    bottom: 0;
+    height: 100px;
+    background-color: #f5f5f5;
+}
+
+
+/*.profile{
+    width: 180px;
+    
+    
+}*/
+
+.mlr-15 {
+    position: absolute;
+}
+
+.ionicon-size {
+    padding-bottom: 20px;
+    text-align: center;
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-bottom: 15px;
+    font-size: 22px;
+    color: rgba(62, 62, 62, 0.83);
+}
+
+.ionicon-size:hover,
+.ionicon-size:focus {
+    padding: 0px;
+    color: rgb(165, 165, 165);
+    // font-size: 28px;
+}
+
+
+/*modal*/
+
+.modal-content {
+    border-radius: 0px;
+}
+
+.modal-header {
+    border-bottom: 0;
+}
+
+.modal-footer {
+    border-top: 0;
+}
+
+.close {
+    float: right;
+    font-size: 50px !important;
+    font-weight: 700;
+    line-height: 1;
+    color: #000;
+    text-shadow: 0 1px 0 #fff;
+    opacity: .2;
+    filter: alpha(opacity=20);
+}
+
+.modal-header .close {
+    margin-top: -21px !important;
+}
+
+#Modal1 {
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+}
+
+#Modal2 {
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+}
+
+#Modal3 {
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+}
+
+#Modal4 {
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+}
+
+#Modal5 {
+    width: auto;
+    height: auto;
+    margin: 0 auto;
+}
+
+.modal-dialog{
+    width: 70%;
+    height: 70%;
+    margin: 0 auto;
+}
+.modal-dialog .carousel-inner img {
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+
+
+/* Common style */
+
+figure {
+    position: relative;
+    //float: left;
+    overflow: hidden;
+    //margin: 10px 1%;
+    //min-width: 520px;
+    //max-width: 880px;
+    //max-height: 560px;
+    //width: 48%;
+    height: auto;
+    background: #3085a3;
+    text-align: center;
+    cursor: pointer;
+}
+
+figure img {
+    //position: relative;
+    //display: block;
+    //min-height: 100%;
+    //max-width: 100%;
+    //opacity: 0.8;
+}
+
+figure figcaption {
+    padding: 2em;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 1.25em;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+figure figcaption::before,
+figure figcaption::after {
+    pointer-events: none;
+}
+
+figure figcaption,
+figure figcaption > a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+/* Anchor will cover the whole item by default */
+
+figure figcaption > a {
+    z-index: 1000;
+    text-indent: 200%;
+    white-space: nowrap;
+    font-size: 0;
+    opacity: 0;
+}
+
+figure h2 {
+    word-spacing: -0.15em;
+    font-weight: 300;
+}
+
+figure h2 span {
+    font-weight: 800;
+}
+
+figure h2,
+figure p {
+    margin: 0;
+}
+
+figure p {
+    letter-spacing: 1px;
+    font-size: 68.5%;
+}
+
+figure.effect-jazz {
+    background: -webkit-linear-gradient(-45deg, #FFF 0%, #000 100%);
+    background: linear-gradient(-45deg, #fff 0%, #000 100%);
+    //background: -webkit-linear-gradient(-45deg, #f3cf3f 0%,#f33f58 100%);
+    //background: linear-gradient(-45deg, #f3cf3f 0%,#f33f58 100%);
+}
+
+figure.effect-jazz img {
+    opacity: 0.9;
+}
+
+figure.effect-jazz figcaption::after,
+figure.effect-jazz img,
+figure.effect-jazz p {
+    -webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+    transition: opacity 0.35s, transform 0.35s;
+}
+
+figure.effect-jazz figcaption::after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-top: 1px solid #fff;
+    border-bottom: 1px solid #fff;
+    content: '';
+    opacity: 0;
+    -webkit-transform: rotate3d(0, 0, 1, 45deg) scale3d(1, 0, 1);
+    transform: rotate3d(0, 0, 1, 45deg) scale3d(1, 0, 1);
+    -webkit-transform-origin: 50% 50%;
+    transform-origin: 50% 50%;
+}
+
+figure.effect-jazz h2,
+figure.effect-jazz p {
+    opacity: 1;
+    -webkit-transform: scale3d(0.8, 0.8, 1);
+    transform: scale3d(0.8, 0.8, 1);
+}
+
+figure.effect-jazz h2 {
+    padding-top: 26%;
+    -webkit-transition: -webkit-transform 0.35s;
+    transition: transform 0.35s;
+}
+
+figure.effect-jazz p {
+    padding: 0.5em 2em;
+    text-transform: none;
+    font-size: 0.85em;
+    opacity: 0;
+}
+
+figure.effect-jazz:hover img {
+    opacity: 0.7;
+    -webkit-transform: scale3d(1.05, 1.05, 1);
+    transform: scale3d(1.05, 1.05, 1);
+}
+
+figure.effect-jazz:hover figcaption::after {
+    opacity: 1;
+    -webkit-transform: rotate3d(0, 0, 1, 45deg) scale3d(1, 1, 1);
+    transform: rotate3d(0, 0, 1, 45deg) scale3d(1, 1, 1);
+}
+
+figure.effect-jazz:hover h2,
+figure.effect-jazz:hover p {
+    opacity: 1;
+    -webkit-transform: scale3d(1, 1, 1);
+    transform: scale3d(1, 1, 1);
+}
+
+
+/*@media screen and (min-width: @screen-lg){
+    #Modal5{
+        width: auto;
+        height: auto;
+        margin: 0 auto;
+    }
+    
+    .modal-dialog, .modal-dialog.carousel-inner img{
+        width: 70%;
+        height: 70%;
+        margin: 0 auto;
+    }
+    .modal.modal-wide .modal-dialog{
+    width: 70%;
+    
+}
+.modal-wide .modal-body{
+    overflow-y: auto;
+}
+}*/
+
+@media screen and (max-width: @screen-sm) {
+    .active {
+        background-color: transparent;
+        border: none;
+    }
+    .navbar-default .navbar-nav>.active>a,
+    .navbar-default .navbar-nav>.active>a:focus,
+    .navbar-default .navbar-nav>.active>a:hover {
+        background-color: transparent;
+    }
+    .navbar-default .navbar-nav>li>a>p {
+        transform: none;
+        transition: none;
+    }
+    .padding-formular {
+        padding-left: 15px;
+        padding-right: 15px;
+        padding-bottom: 10px;
+    }
+    .pl-20 {
+        padding-left: 15px;
+    }
+    .ionicon-size {
+        font-size: 18px;
+    }
+}
