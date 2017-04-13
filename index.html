@@ -147,6 +147,7 @@ img/_DSC9651_zwbug3_c_scale,w_2800.jpg 2800w" src="img/_DSC9651_zwbug3_c_scale,w
         <div class="container ">
             <div class="col-md-10 col-md-offset-1">
                 <h2 class="mb-30">Kontakt</h2>
+<<<<<<< HEAD
                 <form class='form' action="formular-m-anzeige.php" method="post">
                     <div class="padding-formular">
                         <div class="form-group">
@@ -159,8 +160,22 @@ img/_DSC9651_zwbug3_c_scale,w_2800.jpg 2800w" src="img/_DSC9651_zwbug3_c_scale,w
                         </div>
                         <label class="nachricht">Nachricht</label>
                         <textarea class="form-control" id="text" name="text" rows="3"></textarea>
+=======
+                <form class='form'id="contact_formula" action="" method="post">
+                    <div class="padding-formular">
+                        <div class="form-group">
+                            <label for="InputName">Name</label>
+                            <input type="text" class="form-control" id="InputName" name="InputName" placeholder="Name"> </div>
+                        <div class="form-group  has-feedback">
+                            <label class="control-label" for="InputEmail">E-Mail</label>
+                            <div class="input-group"> <span class="input-group-addon">@</span>
+                                <input type="email" class="form-control" name="InputEmail" id="InputEmail" aria-describedby="inputGroupSuccess1Status"> </div>
+                        </div>
+                        <label class="nachricht">Nachricht</label>
+                        <textarea class="form-control" name="InputText" rows="3"></textarea>
+>>>>>>> 87df6ccc83b4db3cf284df3207cd1abbbf1b9d0a
                         <div class="text-right">
-                            <button type="submit" class="btn btn-default mt-20">Senden</button>
+                            <button type="button" id="formula_send" class="btn btn-default mt-20">Senden</button>
                         </div>
                     </div>
                 </form>
