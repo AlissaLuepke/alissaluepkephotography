@@ -10,15 +10,6 @@ $(document).ready(function () {
         $(this).parent().addClass("active");
     });
 
-
-
-    
-    
-   
- 
-
-
-
 });
 
 var timer = setInterval(changePic, 5000);
@@ -40,3 +31,15 @@ function updateBalken() {
         width: timestamp / (50 / 4) + "%"
     }, 0);
 }
+
+
+$('#formula_send').click(function(){
+    $.ajax({
+        method:"POST",
+        url:"/php/contact.php",
+        data:$('#contact_formula').serialize()
+    }).done(function(msg){
+        alert("Data Saved"+msg);
+    });
+    
+});
